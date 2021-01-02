@@ -13,6 +13,7 @@
 		1EC26BD2259F58E900170B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BD0259F58E900170B9A /* Main.storyboard */; };
 		1EC26BD4259F58EB00170B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BD3259F58EB00170B9A /* Assets.xcassets */; };
 		1EC26BD7259F58EB00170B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BD5259F58EB00170B9A /* LaunchScreen.storyboard */; };
+		1EC26BEC25A092F200170B9A /* ZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC26BEB25A092F200170B9A /* ZoomController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1EC26BD3259F58EB00170B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC26BD6259F58EB00170B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EC26BD8259F58EB00170B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC26BEB25A092F200170B9A /* ZoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1EC26BCA259F58E900170B9A /* AppDelegate.swift */,
 				1EC26BCC259F58E900170B9A /* SceneDelegate.swift */,
 				1EC26BCE259F58E900170B9A /* ViewController.swift */,
+				1EC26BEB25A092F200170B9A /* ZoomController.swift */,
 				1EC26BD0259F58E900170B9A /* Main.storyboard */,
 				1EC26BD3259F58EB00170B9A /* Assets.xcassets */,
 				1EC26BD5259F58EB00170B9A /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC26BEC25A092F200170B9A /* ZoomController.swift in Sources */,
 				1EC26BCF259F58E900170B9A /* ViewController.swift in Sources */,
 				1EC26BCB259F58E900170B9A /* AppDelegate.swift in Sources */,
 				1EC26BCD259F58E900170B9A /* SceneDelegate.swift in Sources */,
