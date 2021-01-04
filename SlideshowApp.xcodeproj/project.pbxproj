@@ -71,8 +71,8 @@
 				1EC26BD0259F58E900170B9A /* Main.storyboard */,
 				1EC26BF825A3259F00170B9A /* Assets.xcassets */,
 				1EC26BEE25A3240400170B9A /* ike.jpg */,
-				1EC26BF425A3242200170B9A /* yama.jpg */,
 				1EC26BF125A3241400170B9A /* sora.jpg */,
+				1EC26BF425A3242200170B9A /* yama.jpg */,
 				1EC26BD5259F58EB00170B9A /* LaunchScreen.storyboard */,
 				1EC26BD8259F58EB00170B9A /* Info.plist */,
 			);
