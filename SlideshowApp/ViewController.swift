@@ -27,9 +27,9 @@ class ViewController: UIViewController {
     
     // 画像の名前の配列。
     let imageNameArray = [
-        "ike",
-        "sora",
-        "yama",
+        "ike.jpg",
+        "sora.jpg",
+        "yama.jpg",
     ]
     //接続。戻るボタンを押した時の処理。
     @IBAction func onPrev(_ sender: Any) {
@@ -155,7 +155,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let image = UIImage(named: "ike")
+        let image = UIImage(named: "ike.jpg")
         imageView.image = image
     }
     
