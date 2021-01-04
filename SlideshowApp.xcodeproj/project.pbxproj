@@ -11,9 +11,12 @@
 		1EC26BCD259F58E900170B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC26BCC259F58E900170B9A /* SceneDelegate.swift */; };
 		1EC26BCF259F58E900170B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC26BCE259F58E900170B9A /* ViewController.swift */; };
 		1EC26BD2259F58E900170B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BD0259F58E900170B9A /* Main.storyboard */; };
-		1EC26BD4259F58EB00170B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BD3259F58EB00170B9A /* Assets.xcassets */; };
 		1EC26BD7259F58EB00170B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BD5259F58EB00170B9A /* LaunchScreen.storyboard */; };
 		1EC26BEC25A092F200170B9A /* ZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC26BEB25A092F200170B9A /* ZoomController.swift */; };
+		1EC26BEF25A3240400170B9A /* ike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BEE25A3240400170B9A /* ike.jpg */; };
+		1EC26BF225A3241400170B9A /* sora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BF125A3241400170B9A /* sora.jpg */; };
+		1EC26BF525A3242200170B9A /* yama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BF425A3242200170B9A /* yama.jpg */; };
+		1EC26BF925A3259F00170B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC26BF825A3259F00170B9A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +25,13 @@
 		1EC26BCC259F58E900170B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1EC26BCE259F58E900170B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EC26BD1259F58E900170B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1EC26BD3259F58EB00170B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC26BD6259F58EB00170B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EC26BD8259F58EB00170B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EC26BEB25A092F200170B9A /* ZoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomController.swift; sourceTree = "<group>"; };
+		1EC26BEE25A3240400170B9A /* ike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ike.jpg; sourceTree = "<group>"; };
+		1EC26BF125A3241400170B9A /* sora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sora.jpg; sourceTree = "<group>"; };
+		1EC26BF425A3242200170B9A /* yama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yama.jpg; sourceTree = "<group>"; };
+		1EC26BF825A3259F00170B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,10 @@
 				1EC26BCE259F58E900170B9A /* ViewController.swift */,
 				1EC26BEB25A092F200170B9A /* ZoomController.swift */,
 				1EC26BD0259F58E900170B9A /* Main.storyboard */,
-				1EC26BD3259F58EB00170B9A /* Assets.xcassets */,
+				1EC26BF825A3259F00170B9A /* Assets.xcassets */,
+				1EC26BEE25A3240400170B9A /* ike.jpg */,
+				1EC26BF425A3242200170B9A /* yama.jpg */,
+				1EC26BF125A3241400170B9A /* sora.jpg */,
 				1EC26BD5259F58EB00170B9A /* LaunchScreen.storyboard */,
 				1EC26BD8259F58EB00170B9A /* Info.plist */,
 			);
@@ -128,8 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EC26BD7259F58EB00170B9A /* LaunchScreen.storyboard in Resources */,
-				1EC26BD4259F58EB00170B9A /* Assets.xcassets in Resources */,
+				1EC26BF525A3242200170B9A /* yama.jpg in Resources */,
+				1EC26BF225A3241400170B9A /* sora.jpg in Resources */,
 				1EC26BD2259F58E900170B9A /* Main.storyboard in Resources */,
+				1EC26BF925A3259F00170B9A /* Assets.xcassets in Resources */,
+				1EC26BEF25A3240400170B9A /* ike.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
