@@ -81,13 +81,16 @@ class ViewController: UIViewController {
             dispImageNo = 0
         }
         
-        let name = imageNameArray[dispImageNo]
+        //画像を表示する関数を使用。
+        displayImage()
         
-        // 画像を読み込み。
-        let image = UIImage(named: name)
-        
-        // Image Viewに読み込んだ画像をセット。
-        imageView.image = image
+//        let name = imageNameArray[dispImageNo]
+//
+//        // 画像を読み込み。
+//        let image = UIImage(named: name)
+//
+//        // Image Viewに読み込んだ画像をセット。
+//        imageView.image = image
     }
     
     // 接続。再生・停止ボタンを押した時の処理。
