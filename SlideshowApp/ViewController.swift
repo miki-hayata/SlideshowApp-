@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     //スライドショーで利用するタイマーの宣言。nilを設定しても良い型にしている。
     var timer: Timer!
     
+    //自動スライドショーを再スタートするか判定する為の変数。
+    var restart = false
+    
     // 画像の名前の配列。
     let imageNameArray = [
         "ike.jpg",
@@ -84,13 +87,6 @@ class ViewController: UIViewController {
         //画像を表示する関数を使用。
         displayImage()
         
-//        let name = imageNameArray[dispImageNo]
-//
-//        // 画像を読み込み。
-//        let image = UIImage(named: name)
-//
-//        // Image Viewに読み込んだ画像をセット。
-//        imageView.image = image
     }
     
     // 接続。再生・停止ボタンを押した時の処理。
@@ -136,6 +132,9 @@ class ViewController: UIViewController {
             //停止中は戻る・進むボタンを有効化。
             noPrev.isEnabled = true
             noNext.isEnabled = true
+            
+            restart = true
+            
         }
     }
     
@@ -160,6 +159,23 @@ class ViewController: UIViewController {
         
         let image = UIImage(named: "ike.jpg")
         imageView.image = image
+    }
+    
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        if restart == true{
+            // 自動再生を再度スタート。
+            self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateTimer(_:)), userInfo: nil, repeats: true)
+            
+            //再生中のボタンのラベルを設定。
+            onoffButton.setTitle("停止", for: .normal)
+            
+            //再生中は戻る・進むボタンを無効化。
+            noPrev.isEnabled = false
+            noNext.isEnabled = false
+            
+            //再スタートの判定用の変数を初期化。
+            restart = false
+        }
     }
     
     override func didReceiveMemoryWarning() {
