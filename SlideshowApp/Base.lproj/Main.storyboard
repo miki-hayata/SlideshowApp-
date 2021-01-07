@@ -56,9 +56,8 @@
                                     <constraint firstAttribute="height" constant="150" id="tU9-bO-PzT"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="toZoom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cN5-9p-6VD"/>
-                                    <action selector="unwind:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B2t-KX-Kjp"/>
-                                    <segue destination="VfN-bj-h8X" kind="show" id="kGI-C1-PHB"/>
+                                    <action selector="toZoom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dd0-J0-0kJ"/>
+                                    <segue destination="VfN-bj-h8X" kind="show" id="JHq-d3-74F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,7 +102,7 @@
                                 <rect key="frame" x="191.5" y="295" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="vky-Rz-pGF" kind="unwind" unwindAction="toZoom:" id="VFU-tr-E81"/>
+                                    <segue destination="vky-Rz-pGF" kind="unwind" unwindAction="unwind:" id="i9S-H7-FPb"/>
                                 </connections>
                             </button>
                         </subviews>
